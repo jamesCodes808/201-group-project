@@ -1,0 +1,152 @@
+national_number,gen,english_name,primary_type,secondary_type,classification,is_sublegendary,is_legendary,is_mythical,evochain_0,evochain_1,evochain_2,evochain_6,description
+1,I,Bulbasaur,grass,poison,Seed Pok‚mon,0,0,0,Bulbasaur,Ivysaur,Venusaur,,There is a plant seed on its back right from the day this Pok‚mon is born. The seed slowly grows larger.
+2,I,Ivysaur,grass,poison,Seed Pok‚mon,0,0,0,Bulbasaur,Ivysaur,Venusaur,,"When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+3,I,Venusaur,grass,poison,Seed Pok‚mon,0,0,0,Bulbasaur,Ivysaur,Venusaur,,Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
+4,I,Charmander,fire,,Lizard Pok‚mon,0,0,0,Charmander,Charmeleon,Charizard,,"It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+5,I,Charmeleon,fire,,Flame Pok‚mon,0,0,0,Charmander,Charmeleon,Charizard,,"It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
+6,I,Charizard,fire,flying,Flame Pok‚mon,0,0,0,Charmander,Charmeleon,Charizard,,It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.
+7,I,Squirtle,water,,Tiny Turtle Pok‚mon,0,0,0,Squirtle,Wartortle,Blastoise,,"When it retracts its long neck into its shell, it squirts out water with vigorous force."
+8,I,Wartortle,water,,Turtle Pok‚mon,0,0,0,Squirtle,Wartortle,Blastoise,,"It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old."
+9,I,Blastoise,water,,Shellfish Pok‚mon,0,0,0,Squirtle,Wartortle,Blastoise,,"It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell."
+10,I,Caterpie,bug,,Worm Pok‚mon,0,0,0,Caterpie,Metapod,Butterfree,,"For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
+11,I,Metapod,bug,,Cocoon Pok‚mon,0,0,0,Caterpie,Metapod,Butterfree,,"It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack."
+12,I,Butterfree,bug,flying,Butterfly Pok‚mon,0,0,0,Caterpie,Metapod,Butterfree,,"In battle, it flaps its wings at great speed to release highly toxic dust into the air."
+13,I,Weedle,bug,poison,Hairy Pok‚mon,0,0,0,Weedle,Kakuna,Beedrill,,Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.
+14,I,Kakuna,bug,poison,Cocoon Pok‚mon,0,0,0,Weedle,Kakuna,Beedrill,,"Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."
+15,I,Beedrill,bug,poison,Poison Bee Pok‚mon,0,0,0,Weedle,Kakuna,Beedrill,,It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.
+16,I,Pidgey,normal,flying,Tiny Bird Pok‚mon,0,0,0,Pidgey,Pidgeotto,Pidgeot,,"Very docile. If attacked, it will often kick up sand to protect itself rather than fight back."
+17,I,Pidgeotto,normal,flying,Bird Pok‚mon,0,0,0,Pidgey,Pidgeotto,Pidgeot,,This Pok‚mon is full of vitality. It constantly flies around its large territory in search of prey.
+18,I,Pidgeot,normal,flying,Bird Pok‚mon,0,0,0,Pidgey,Pidgeotto,Pidgeot,,"This Pok‚mon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons."
+19,I,Rattata,normal,dark,Mouse Pok‚mon,0,0,0,Rattata,Raticate,,,"Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area."
+20,I,Raticate,normal,dark,Mouse Pok‚mon,0,0,0,Rattata,Raticate,,,"Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey."
+21,I,Spearow,normal,flying,Tiny Bird Pok‚mon,0,0,0,Spearow,Fearow,,,"Inept at flying high. However, it can fly around very fast to protect its territory."
+22,I,Fearow,normal,flying,Beak Pok‚mon,0,0,0,Spearow,Fearow,,,"A Pok‚mon that dates back many years. If it senses danger, it flies high and away, instantly."
+23,I,Ekans,poison,,Snake Pok‚mon,0,0,0,Ekans,Arbok,,,"The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+24,I,Arbok,poison,,Cobra Pok‚mon,0,0,0,Ekans,Arbok,,,The frightening patterns on its belly have been studied. Six variations have been confirmed.
+25,I,Pikachu,electric,,Mouse Pok‚mon,0,0,0,Pichu,Pikachu,Raichu,,Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.
+26,I,Raichu,electric,electric,Mouse Pok‚mon,0,0,0,Pichu,Pikachu,Raichu,,Its long tail serves as a ground to protect itself from its own high-voltage power.
+27,I,Sandshrew,ground,ice,Mouse Pok‚mon,0,0,0,Sandshrew,Sandslash,,,"It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pok‚mon rids itself of dirt and moisture clinging to its body."
+28,I,Sandslash,ground,ice,Mouse Pok‚mon,0,0,0,Sandshrew,Sandslash,,,"The drier the area Sandslash lives in, the harder and smoother the Pok‚mon?s spikes will feel when touched."
+29,I,Nidoran?,poison,,Poison Pin Pok‚mon,0,0,0,Egg,Nidoran?,Nidorina,Nidoqueen,"Females are more sensitive to smells than males. While foraging, they?ll use their whiskers to check wind direction and stay downwind of predators."
+30,I,Nidorina,poison,,Poison Pin Pok‚mon,0,0,0,Egg,Nidoran?,Nidorina,Nidoqueen,The horn on its head has atrophied. It?s thought that this happens so Nidorina?s children won?t get poked while their mother is feeding them.
+31,I,Nidoqueen,poison,ground,Drill Pok‚mon,0,0,0,Egg,Nidoran?,Nidorina,Nidoqueen,"Nidoqueen is better at defense than offense. With scales like armor, this Pok‚mon will shield its children from any kind of attack."
+32,I,Nidoran?,poison,,Poison Pin Pok‚mon,0,0,0,Egg,Nidoran?,Nidorino,Nidoking,"The horn on a male Nidoran?s forehead contains a powerful poison. This is a very cautious Pok‚mon, always straining its large ears."
+33,I,Nidorino,poison,,Poison Pin Pok‚mon,0,0,0,Egg,Nidoran?,Nidorino,Nidoking,"With a horn that?s harder than diamond, this Pok‚mon goes around shattering boulders as it searches for a moon stone."
+34,I,Nidoking,poison,ground,Drill Pok‚mon,0,0,0,Egg,Nidoran?,Nidorino,Nidoking,"When it goes on a rampage, it?s impossible to control. But in the presence of a Nidoqueen it?s lived with for a long time, Nidoking calms down."
+35,I,Clefairy,fairy,,Fairy Pok‚mon,0,0,0,Cleffa,Clefairy,Clefable,,It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.
+36,I,Clefable,fairy,,Fairy Pok‚mon,0,0,0,Cleffa,Clefairy,Clefable,,"A timid fairy Pok‚mon that is rarely seen, it will run and hide the moment it senses people."
+37,I,Vulpix,fire,ice,Fox Pok‚mon,0,0,0,Vulpix,Ninetales,,,"While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+38,I,Ninetales,fire,ice,Fox Pok‚mon,0,0,0,Vulpix,Ninetales,,,"It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+39,I,Jigglypuff,normal,fairy,Balloon Pok‚mon,0,0,0,Igglybuff,Jigglypuff,Wigglytuff,,"Jigglypuff has top-notch lung capacity, even by comparison to other Pok‚mon. It won?t stop singing its lullabies until its foes fall asleep."
+40,I,Wigglytuff,normal,fairy,Balloon Pok‚mon,0,0,0,Igglybuff,Jigglypuff,Wigglytuff,,"The more air it takes in, the more it inflates. If opponents catch it in a bad mood, it will inflate itself to an enormous size to intimidate them."
+41,I,Zubat,poison,flying,Bat Pok‚mon,0,0,0,Zubat,Golbat,Crobat,,"It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill."
+42,I,Golbat,poison,flying,Bat Pok‚mon,0,0,0,Zubat,Golbat,Crobat,,"It loves to drink other creatures? blood. It?s said that if it finds others of its kind going hungry, it sometimes shares the blood it?s gathered."
+43,I,Oddish,grass,poison,Weed Pok‚mon,0,0,0,Oddish,Gloom,Vileplume,Bellossom,"If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds."
+44,I,Gloom,grass,poison,Weed Pok‚mon,0,0,0,Oddish,Gloom,Vileplume,Bellossom,Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.
+45,I,Vileplume,grass,poison,Flower Pok‚mon,0,0,0,Oddish,Gloom,Vileplume,,"It has the world?s largest petals. With every step, the petals shake out heavy clouds of toxic pollen."
+46,I,Paras,bug,grass,Mushroom Pok‚mon,0,0,0,Paras,Parasect,,,Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.
+47,I,Parasect,bug,grass,Mushroom Pok‚mon,0,0,0,Paras,Parasect,,,The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.
+48,I,Venonat,bug,poison,Insect Pok‚mon,0,0,0,Venonat,Venomoth,,,"Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes."
+49,I,Venomoth,bug,poison,Poison Moth Pok‚mon,0,0,0,Venonat,Venomoth,,,The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.
+50,I,Diglett,ground,ground,Mole Pok‚mon,0,0,0,Diglett,Dugtrio,,,"If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+51,I,Dugtrio,ground,ground,Mole Pok‚mon,0,0,0,Diglett,Dugtrio,,,A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.
+52,I,Meowth,normal,dark,Scratch Cat Pok‚mon,0,0,0,Meowth,Persian,,,"It loves to collect shiny things. If it?s in a good mood, it might even let its Trainer have a look at its hoard of treasures."
+53,I,Persian,normal,dark,Classy Cat Pok‚mon,0,0,0,Meowth,Persian,,,"Getting this prideful Pok‚mon to warm up to you takes a lot of effort, and it will claw at you the moment it gets annoyed."
+54,I,Psyduck,water,,Duck Pok‚mon,0,0,0,Psyduck,Golduck,,,"Psyduck is constantly beset by headaches. If the Pok‚mon lets its strange power erupt, apparently the pain subsides for a while."
+55,I,Golduck,water,,Duck Pok‚mon,0,0,0,Psyduck,Golduck,,,"This Pok‚mon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display."
+56,I,Mankey,fighting,,Pig Monkey Pok‚mon,0,0,0,Mankey,Primeape,,,An agile Pok‚mon that lives in trees. It angers easily and will not hesitate to attack anything.
+57,I,Primeape,fighting,,Pig Monkey Pok‚mon,0,0,0,Mankey,Primeape,,,It stops being angry only when nobody else is around. To view this moment is very difficult.
+58,I,Growlithe,fire,,Puppy Pok‚mon,0,0,0,Growlithe,Arcanine,,,It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.
+59,I,Arcanine,fire,,Legendary Pok‚mon,0,0,0,Growlithe,Arcanine,,,"The sight of it running over 6,200 miles in a single day and night has captivated many people."
+60,I,Poliwag,water,,Tadpole Pok‚mon,0,0,0,Poliwag,Poliwhirl,Poliwrath,Politoed,"For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pok‚mon?s innards showing through the skin."
+61,I,Poliwhirl,water,,Tadpole Pok‚mon,0,0,0,Poliwag,Poliwhirl,Poliwrath,Politoed,Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl?s has been used in place of lullabies to get children to go to sleep.
+62,I,Poliwrath,water,fighting,Tadpole Pok‚mon,0,0,0,Poliwag,Poliwhirl,Poliwrath,,"Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward."
+63,I,Abra,psychic,,Psi Pok‚mon,0,0,0,Abra,Kadabra,Alakazam,,This Pok‚mon uses its psychic powers while it sleeps. The contents of Abra?s dreams affect the powers that the Pok‚mon wields.
+64,I,Kadabra,psychic,,Psi Pok‚mon,0,0,0,Abra,Kadabra,Alakazam,,"Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow."
+65,I,Alakazam,psychic,,Psi Pok‚mon,0,0,0,Abra,Kadabra,Alakazam,,"It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death."
+66,I,Machop,fighting,,Superpower Pok‚mon,0,0,0,Machop,Machoke,Machamp,,"Its whole body is composed of muscles. Even though it?s the size of a human child, it can hurl 100 grown-ups."
+67,I,Machoke,fighting,,Superpower Pok‚mon,0,0,0,Machop,Machoke,Machamp,,"Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
+68,I,Machamp,fighting,,Superpower Pok‚mon,0,0,0,Machop,Machoke,Machamp,,It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.
+69,I,Bellsprout,grass,poison,Flower Pok‚mon,0,0,0,Bellsprout,Weepinbell,Victreebel,,Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.
+70,I,Weepinbell,grass,poison,Flycatcher Pok‚mon,0,0,0,Bellsprout,Weepinbell,Victreebel,,"When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids."
+71,I,Victreebel,grass,poison,Flycatcher Pok‚mon,0,0,0,Bellsprout,Weepinbell,Victreebel,,"Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all."
+72,I,Tentacool,water,poison,Jellyfish Pok‚mon,0,0,0,Tentacool,Tentacruel,,,Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.
+73,I,Tentacruel,water,poison,Jellyfish Pok‚mon,0,0,0,Tentacool,Tentacruel,,,"When the red orbs on Tentacruel?s head glow brightly, watch out. The Pok‚mon is about to fire off a burst of ultrasonic waves."
+74,I,Geodude,rock,ground,Rock Pok‚mon,0,0,0,Geodude,Graveler,Golem,,"Commonly found near mountain trails and the like. If you step on one by accident, it gets angry."
+75,I,Graveler,rock,ground,Rock Pok‚mon,0,0,0,Geodude,Graveler,Golem,,"Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid."
+76,I,Golem,rock,ground,Megaton Pok‚mon,0,0,0,Geodude,Graveler,Golem,,"Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it?s exposed to air."
+77,I,Ponyta,fire,psychic,Fire Horse Pok‚mon,0,0,0,Ponyta,Rapidash,,,"It can?t run properly when it?s newly born. As it races around with others of its kind, its legs grow stronger."
+78,I,Rapidash,fire,psychic,Fire Horse Pok‚mon,0,0,0,Ponyta,Rapidash,,,"This Pok‚mon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind."
+79,I,Slowpoke,water,psychic,Dopey Pok‚mon,0,0,0,Slowpoke,Slowbro,Slowking,Use Galarica Cuff,"Slow-witted and oblivious, this Pok‚mon won?t feel any pain if its tail gets eaten. It won?t notice when its tail grows back, either."
+80,I,Slowbro,water,psychic,Hermit Crab Pok‚mon,0,0,0,Slowpoke,Slowbro,Slowking,Use Galarica Cuff,Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.
+81,I,Magnemite,electric,steel,Magnet Pok‚mon,0,0,0,Magnemite,Magneton,Magnezone,,"At times, Magnemite runs out of electricity and ends up on the ground. If you give batteries to a grounded Magnemite, it?ll start moving again."
+82,I,Magneton,electric,steel,Magnet Pok‚mon,0,0,0,Magnemite,Magneton,Magnezone,,This Pok‚mon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.
+83,I,Farfetch'd,normal,flying,Wild Duck Pok‚mon,0,0,0,Farfetch'd,Sirfetch'd,,,"The stalk this Pok‚mon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food."
+84,I,Doduo,normal,flying,Twin Bird Pok‚mon,0,0,0,Doduo,Dodrio,,,"Its short wings make flying difficult. Instead, this Pok‚mon runs at high speed on developed legs."
+85,I,Dodrio,normal,flying,Triple Bird Pok‚mon,0,0,0,Doduo,Dodrio,,,One of Doduo?s two heads splits to form a unique species. It runs close to 40 mph in prairies.
+86,I,Seel,water,,Sea Lion Pok‚mon,0,0,0,Seel,Dewgong,,,Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.
+87,I,Dewgong,water,ice,Sea Lion Pok‚mon,0,0,0,Seel,Dewgong,,,"Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters."
+88,I,Grimer,poison,poison,Sludge Pok‚mon,0,0,0,Grimer,Muk,,,Made of congealed sludge. It smells too putrid to touch. Even weeds won?t grow in its path.
+89,I,Muk,poison,poison,Sludge Pok‚mon,0,0,0,Grimer,Muk,,,"Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell."
+90,I,Shellder,water,,Bivalve Pok‚mon,0,0,0,Shellder,Cloyster,,,It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.
+91,I,Cloyster,water,ice,Bivalve Pok‚mon,0,0,0,Shellder,Cloyster,,,"Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
+92,I,Gastly,ghost,poison,Gas Pok‚mon,0,0,0,Gastly,Haunter,Gengar,,"Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+93,I,Haunter,ghost,poison,Gas Pok‚mon,0,0,0,Gastly,Haunter,Gengar,,"Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+94,I,Gengar,ghost,poison,Shadow Pok‚mon,0,0,0,Gastly,Haunter,Gengar,,"On the night of a full moon, if shadows move on their own and laugh, it must be Gengar?s doing."
+95,I,Onix,rock,ground,Rock Snake Pok‚mon,0,0,0,Onix,Steelix,,,"As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid."
+96,I,Drowzee,psychic,,Hypnosis Pok‚mon,0,0,0,Drowzee,Hypno,,,"If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past."
+97,I,Hypno,psychic,,Hypnosis Pok‚mon,0,0,0,Drowzee,Hypno,,,Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.
+98,I,Krabby,water,,River Crab Pok‚mon,0,0,0,Krabby,Kingler,,,It can be found near the sea. The large pincers grow back if they are torn out of their sockets.
+99,I,Kingler,water,,Pincer Pok‚mon,0,0,0,Krabby,Kingler,,,"Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+100,I,Voltorb,electric,,Ball Pok‚mon,0,0,0,Voltorb,Electrode,,,It is said to camouflage itself as a Pok‚ Ball. It will self-destruct with very little stimulus.
+101,I,Electrode,electric,,Ball Pok‚mon,0,0,0,Voltorb,Electrode,,,Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.
+102,I,Exeggcute,grass,psychic,Egg Pok‚mon,0,0,0,Exeggcute,Exeggutor,,,"Though it may look like it?s just a bunch of eggs, it?s a proper Pok‚mon. Exeggcute communicates with others of its kind via telepathy, apparently."
+103,I,Exeggutor,grass,psychic,Coconut Pok‚mon,0,0,0,Exeggcute,Exeggutor,,,Each of Exeggutor?s three heads is thinking different thoughts. The three don?t seem to be very interested in one another.
+104,I,Cubone,ground,,Lonely Pok‚mon,0,0,0,Cubone,Marowak,,,"When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head."
+105,I,Marowak,ground,fire,Bone Keeper Pok‚mon,0,0,0,Cubone,Marowak,,,"This Pok‚mon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon."
+106,I,Hitmonlee,fighting,,Kicking Pok‚mon,0,0,0,Tyrogue,Hitmonlee,,,This amazing Pok‚mon has an awesome sense of balance. It can kick in succession from any position.
+107,I,Hitmonchan,fighting,,Punching Pok‚mon,0,0,0,Tyrogue,Hitmonchan,,,"Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn."
+108,I,Lickitung,normal,,Licking Pok‚mon,0,0,0,Lickitung,Lickilicky,,,"If this Pok‚mon?s sticky saliva gets on you and you don?t clean it off, an intense itch will set in. The itch won?t go away, either."
+109,I,Koffing,poison,,Poison Gas Pok‚mon,0,0,0,Koffing,Weezing,,,"Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+110,I,Weezing,poison,poison,Poison Gas Pok‚mon,0,0,0,Koffing,Weezing,,,It mixes gases between its two bodies. It?s said that these Pok‚mon were seen all over the Galar region back in the day.
+111,I,Rhyhorn,ground,rock,Spikes Pok‚mon,0,0,0,Rhyhorn,Rhydon,Rhyperior,,"Strong, but not too bright, this Pok‚mon can shatter even a skyscraper with its charging tackles."
+112,I,Rhydon,ground,rock,Drill Pok‚mon,0,0,0,Rhyhorn,Rhydon,Rhyperior,,It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.
+113,I,Chansey,normal,,Egg Pok‚mon,0,0,0,Happiny,Chansey,Blissey,,The egg Chansey carries is not only delicious but also packed with nutrition. It?s used as a high-class cooking ingredient.
+114,I,Tangela,grass,,Vine Pok‚mon,0,0,0,Tangela,Tangrowth,,,"Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pok‚mon?s true appearance remains a mystery."
+115,I,Kangaskhan,normal,,Parent Pok‚mon,0,0,0,Kangaskhan,,,,"Although it?s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs."
+116,I,Horsea,water,,Dragon Pok‚mon,0,0,0,Horsea,Seadra,Kingdra,,"Horsea makes its home in oceans with gentle currents. If this Pok‚mon is under attack, it spits out pitch-black ink and escapes."
+117,I,Seadra,water,,Dragon Pok‚mon,0,0,0,Horsea,Seadra,Kingdra,,"It?s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison."
+118,I,Goldeen,water,,Goldfish Pok‚mon,0,0,0,Goldeen,Seaking,,,"Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer."
+119,I,Seaking,water,,Goldfish Pok‚mon,0,0,0,Goldeen,Seaking,,,"In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors."
+120,I,Staryu,water,,Starshape Pok‚mon,0,0,0,Staryu,Starmie,,,"If you visit a beach at the end of summer, you?ll be able to see groups of Staryu lighting up in a steady rhythm."
+121,I,Starmie,water,psychic,Mysterious Pok‚mon,0,0,0,Staryu,Starmie,,,This Pok‚mon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.
+122,I,Mr. Mime,psychic,fairy,Barrier Pok‚mon,0,0,0,Mimejr.,Mr.mime,,,The broadness of its hands may be no coincidence?many scientists believe its palms became enlarged specifically for pantomiming.
+123,I,Scyther,bug,flying,Mantis Pok‚mon,0,0,0,Scyther,Scizor,,,"As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree."
+124,I,Jynx,ice,psychic,Humanshape Pok‚mon,0,0,0,Smoochum,Jynx,,,"In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice."
+125,I,Electabuzz,electric,,Electric Pok‚mon,0,0,0,Elekid,Electabuzz,Electivire,,Many power plants keep Ground-type Pok‚mon around as a defense against Electabuzz that come seeking electricity.
+126,I,Magmar,fire,,Spitfire Pok‚mon,0,0,0,Magby,Magmar,Magmortar,,Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.
+127,I,Pinsir,bug,,Stagbeetle Pok‚mon,0,0,0,Pinsir,,,,"These Pok‚mon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender."
+128,I,Tauros,normal,,Wild Bull Pok‚mon,0,0,0,Tauros,,,,"When Tauros begins whipping itself with its tails, it?s a warning that the Pok‚mon is about to charge with astounding speed."
+129,I,Magikarp,water,,Fish Pok‚mon,0,0,0,Magikarp,Gyarados,,,It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pok‚mon in the world.
+130,I,Gyarados,water,flying,Atrocious Pok‚mon,0,0,0,Magikarp,Gyarados,,,It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.
+131,I,Lapras,water,ice,Transport Pok‚mon,0,0,0,Lapras,,,,"A smart and kindhearted Pok‚mon, it glides across the surface of the sea while its beautiful song echoes around it."
+132,I,Ditto,normal,,Transform Pok‚mon,0,0,0,Ditto,,,,"It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes."
+133,I,Eevee,normal,,Evolution Pok‚mon,0,0,0,Eevee,,,,It has the ability to alter the composition of its body to suit its surrounding environment.
+134,I,Vaporeon,water,,Bubble Jet Pok‚mon,0,0,0,Eevee,,,,"When Vaporeon?s fins begin to vibrate, it is a sign that rain will come within a few hours."
+135,I,Jolteon,electric,,Lightning Pok‚mon,0,0,0,Eevee,,,,"If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+136,I,Flareon,fire,,Flame Pok‚mon,0,0,0,Eevee,,,,"Once it has stored up enough heat, this Pok‚mon?s body temperature can reach up to 1,700 degrees Fahrenheit."
+137,I,Porygon,normal,,Virtual Pok‚mon,0,0,0,Porygon,Porygon2,Porygon-Z,,State-of-the-art technology was used to create Porygon. It was the first artificial Pok‚mon to be created via computer programming.
+138,I,Omanyte,rock,water,Spiral Pok‚mon,0,0,0,Omanyte,Omastar,,,"Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem."
+139,I,Omastar,rock,water,Spiral Pok‚mon,0,0,0,Omanyte,Omastar,,,"Weighed down by a large and heavy shell, Omastar couldn?t move very fast. Some say it went extinct because it was unable to catch food."
+140,I,Kabuto,rock,water,Shellfish Pok‚mon,0,0,0,Kabuto,Kabutops,,,"This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder."
+141,I,Kabutops,rock,water,Shellfish Pok‚mon,0,0,0,Kabuto,Kabutops,,,Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pok‚mon.
+142,I,Aerodactyl,rock,flying,Fossil Pok‚mon,0,0,0,Aerodactyl,,,,This is a ferocious Pok‚mon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.
+143,I,Snorlax,normal,,Sleeping Pok‚mon,0,0,0,Munchlax,Snorlax,,,"It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+144,I,Articuno,ice,flying,Freeze Pok‚mon,1,0,0,Articuno,,,,"It?s said that this Pok‚mon?s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it."
+145,I,Zapdos,electric,flying,Electric Pok‚mon,1,0,0,Zapdos,,,,This Pok‚mon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.
+146,I,Moltres,fire,flying,Flame Pok‚mon,1,0,0,Moltres,,,,"It?s one of the legendary bird Pok‚mon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
+147,I,Dratini,dragon,,Dragon Pok‚mon,0,0,0,Dratini,Dragonair,Dragonite,,"Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times."
+148,I,Dragonair,dragon,,Dragon Pok‚mon,0,0,0,Dratini,Dragonair,Dragonite,,"This Pok‚mon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind."
+149,I,Dragonite,dragon,flying,Dragon Pok‚mon,0,0,0,Dratini,Dragonair,Dragonite,,"It?s a kindhearted Pok‚mon. If it spots a drowning person or Pok‚mon, Dragonite simply must help them."
+150,I,Mewtwo,psychic,,Genetic Pok‚mon,0,1,0,Mewtwo,,,,"Its DNA is almost the same as Mew?s. However, its size and disposition are vastly different."
+151,I,Mew,psychic,,New Species Pok‚mon,0,0,1,Mew,,,,"When viewed through a microscope, this Pok‚mon?s short, fine, delicate hair can be seen."
