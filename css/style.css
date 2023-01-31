@@ -1,0 +1,62 @@
+/* Global Styles  */
+
+
+header {
+    margin: 50px auto;
+    border: 5px solid #A3DBED;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header nav ul a {
+    color: #2D65A8;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Leader Board Page Styles  */
+#leaderboard-main-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#leaderboard-main-container table {
+    border-collapse: collapse;
+    border: none;
+    font-size: 0.8rem;
+    margin: auto;
+    padding: 30px;
+    /* overflow-y: scroll; */
+}
+
+td,
+th {
+    padding: 20px;
+}
+
+th {
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+td {
+    font-size: 1rem;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(248, 255, 146);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(255, 194, 194);
+}
