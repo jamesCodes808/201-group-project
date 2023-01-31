@@ -60,3 +60,8 @@ tr:nth-child(even) td {
 tr:nth-child(odd) td {
     background-color: rgb(255, 194, 194);
 }
+body {
+   background-image: linear-gradient(to right, rgb(255, 187, 0), rgb(255, 0, 0));
+    filter: brightness(0%);
+
+}
