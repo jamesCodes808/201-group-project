@@ -36,7 +36,7 @@ window.onload = function(){
 document.getElementById("startGame").onclick = function(event) {
 
    
-    document.getElementById('pokemonimg').src = "img/pokemonName/"+answer+".png";
+    document.getElementById('pokemonimg').src = "assets/img/pokemonName/"+answer+".png";
 
     if (guesses === 0 || underscore.join('') === answer){
     //    prevents guessing after game end
