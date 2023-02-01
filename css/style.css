@@ -1,6 +1,5 @@
 /* Global Styles  */
 
-
 header {
     margin: 50px auto;
     border: 5px solid #A3DBED;
@@ -20,8 +19,9 @@ header nav ul a {
     font-size: 1.5rem;
 }
 
-
-
+.hidden {
+    visibility: hidden;
+}
 
 /* Leader Board Page Styles  */
 #leaderboard-main-container {
@@ -35,7 +35,6 @@ header nav ul a {
     font-size: 0.8rem;
     margin: auto;
     padding: 30px;
-    /* overflow-y: scroll; */
 }
 
 td,
