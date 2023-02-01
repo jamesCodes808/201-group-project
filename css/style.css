@@ -1,6 +1,5 @@
 /* Global Styles  */
 
-
 header {
     margin: 50px auto;
     border: 5px solid #A3DBED;
@@ -20,8 +19,34 @@ header nav ul a {
     font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
+.hidden {
+    visibility: hidden;
+}
+=======
+/* game location */
+.game-title {
+    font-size: 7rem;
+    color: bisque;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #A3DBED;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card {
+    width: 80%;
+    height: 600px;
+    background-color: rgba(70, 124, 172, 0.399);
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 80px;
+}
 
 
+>>>>>>> b1309bd43701516acede773c3ce9ee15cec293b9
 
 /* Leader Board Page Styles  */
 #leaderboard-main-container {
@@ -35,7 +60,6 @@ header nav ul a {
     font-size: 0.8rem;
     margin: auto;
     padding: 30px;
-    /* overflow-y: scroll; */
 }
 
 td,
@@ -59,4 +83,18 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
     background-color: rgb(255, 194, 194);
+}
+body {
+   background-image: linear-gradient(to right, rgb(255, 187, 0), rgb(255, 0, 0));
+    
+    
+
+}
+footer {
+    margin: 50px auto;
+    border: 5px solid #A3DBED;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: large;
+    text-align: center;
 }

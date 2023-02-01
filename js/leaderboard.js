@@ -3,46 +3,52 @@
 
 // global variables 
 
-// element variables 
+// HTML element variables 
 const leaderboardTbodyEl = document.getElementById('leaderboard-tbody');
 
-// variables for timer
-let startTime;
-let endTime;
-let finishTimeInSeconds;
-let userScore = 0;
-
-const Player = function (name) {
-    this.name = name,
-        this.time = finishTimeInSeconds,
-        this.score = userScore
-}
+// will load leaderboard saved from home page into the leaderboard page
+function loadLeaderBoard() {
+    const players = JSON.parse(localStorage.getItem('listOfPlayers'))
+    console.log(players)
+    state.leaderBoard = new Leaderboard(players);
+};
 
 // renders leaderboard on page 
 function renderLeaderBoard() {
     loadLeaderBoard();
-}
-
-// will load leaderboard saved from home page into the leaderboard page
-function loadLeaderBoard() {
-    const players = JSON.parse(localStorage.getItem('players'))
-    state.leaderBoard = new LeaderBoard(players);
+    clearLeaderBoard();
+    showLeaderBoard();
 };
 
 
 
-// functions for timer, will get called when start button is clicked, and when quiz is over
-function startTimer() {
-    startTime = new Date();
+// will clear leader board data before reloading new scores. 
+function clearLeaderBoard() {
+    let trEl = leaderboardTbodyEl.querySelectorAll('tr');
+    trEl.innerText = '';
 }
 
-function endTimer() {
-    endTime = new Date();
-    let timeDiff = endTime - startTime; //in ms
-    // divide to change ms to seconds 
-    timeDiff /= 1000;
+function showLeaderBoard() {
+    for (let player of state.leaderBoard.listOfPlayers) {
+        let trEl = document.createElement('tr');
+        let tdRankEl = document.createElement('td');
+        let tdNameEl = document.createElement('td');
+        let tdTimeEl = document.createElement('td');
+        let tdScoreEl = document.createElement('td');
 
-    // gets the seconds
-    finishTimeInSeconds = Math.round(timeDiff)
+        tdNameEl.innerText = player.name;
+        tdTimeEl.innerText = player.time;
+        tdScoreEl.innerText = player.score;
+
+        trEl.appendChild(tdRankEl);
+        trEl.appendChild(tdNameEl);
+        trEl.appendChild(tdTimeEl);
+        trEl.appendChild(tdScoreEl);
+
+        leaderboardTbodyEl.appendChild(trEl);
+    }
 }
+
+renderLeaderBoard();
+
 
