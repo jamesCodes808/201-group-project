@@ -29,7 +29,6 @@ window.onload = function(){
 
     document.getElementById("lettersGuessed").innerHTML = "Letters guessed: " + letterGuess;
 
-
 }
 
 //function runs after click me 
