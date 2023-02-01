@@ -34,7 +34,7 @@ window.onload = function(){
 //function runs after click me 
 document.getElementById("startGame").onclick = function(event) {
 
-   
+
     document.getElementById('pokemonimg').src = "assets/img/pokemonName/"+answer+".png";
 
     if (guesses === 0 || underscore.join('') === answer){
@@ -42,7 +42,21 @@ document.getElementById("startGame").onclick = function(event) {
     }
     else {
         //userGuess is recorded based on key pressed
-        var userGuess = event.key;
+        // var userGuess = event.key;
+
+
+        // test add
+        // console.log(userGuess);
+
+        let userGuess = '';
+    document.addEventListener('keydown',(event) => {
+        event.preventDefault();
+        userGuess = event.key;
+        console.log(event);
+        console.log(userGuess);
+    
+        
+    });
 
         if (alphabet.indexOf(userGuess) > -1) {
 
