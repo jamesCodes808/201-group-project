@@ -60,6 +60,7 @@ header nav ul a {
     margin-right: auto;
     display: block;
     margin-top: none;
+    height: 500px;
 }
 
 .card p {
