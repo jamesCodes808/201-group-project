@@ -12,7 +12,6 @@ let userScore = 0;
 
 // Prompt to create a player and fill in values after the game is complete
 const Player = function (name, time, score) {
-    // this.rank,
     this.name = name,
         this.time = time,
         this.score = score
@@ -64,6 +63,7 @@ function handleSubmit(e) {
 
 //submit event listener for player form
 const playerFormEl = document.getElementById('player-form');
+
 if (playerFormEl) {
     playerFormEl.addEventListener('submit', handleSubmit);
 }

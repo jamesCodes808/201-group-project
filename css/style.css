@@ -20,17 +20,20 @@ header nav ul a {
 }
 
 .hidden {
+    display: none;
     visibility: hidden;
 }
-
 /* game location */
 .game-title {
     font-size: 7rem;
-    color: bisque;
+    margin: 30px auto;
+    color: #E9BD31;
     text-align: center;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #A3DBED;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #345EA0;
+    text-shadow: -15px 15px #1C315D;
+    font-family: 'Pokemon Solid', sans-serif;
 
 }
 
@@ -44,12 +47,12 @@ header nav ul a {
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 80px;
-    justify-items:center;
+    justify-items: center;
     padding: 20px;
     border-image: round;
     border: 1px solid #A3DBED;
 
-    
+
 }
 
 .card .img-responsive {
@@ -58,6 +61,7 @@ header nav ul a {
     display: block;
     margin-top: none;
 }
+
 .card p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -82,30 +86,46 @@ header nav ul a {
     box-shadow: 0 40px 63px -60px #132A13;
     margin-top: none;
     margin-bottom: none;
- 
+
+}
+
+.card button:hover {
+    animation: bounce .3s infinite alternate;
+    box-shadow: 0 80px 63px -60px #132A13;
+}
+
+.card button:active {
+    animation: translateY(5px);
+    box-shadow: 0 40px 63px -60px #132A13;
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(1.2);
     }
-    
-    .card button:hover {
-        animation: bounce .3s infinite alternate;
-        box-shadow: 0 80px 63px -60px #132A13;
-    }
-    
-    .card button:active {
-        animation: translateY(5px);
-        box-shadow: 0 40px 63px -60px #132A13;
-    }
-    @keyframes bounce {
-        to { transform: scale(1.2); }
-      }
-    .nextRound {
-     display: flex
-    }
-    
+}
+
+.nextRound {
+    display: flex
+}
+
 
 /* Leader Board Page Styles  */
 #leaderboard-main-container {
     text-align: center;
     margin: 30px auto;
+}
+
+#leaderboard-main-container h1 {
+    font-size: 7rem;
+    margin: 50px auto;
+    color: #E9BD31;
+    text-align: center;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #345EA0;
+    text-shadow: -15px 15px #1C315D;
+    font-family: 'Pokemon Solid', sans-serif;
 }
 
 #leaderboard-main-container table {
@@ -139,6 +159,22 @@ tr:nth-child(odd) td {
     background-color: rgb(255, 194, 194);
 }
 
+/* Styles for end game form  */
+#player-form-section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 15%
+}
+
+#player-form-section legend {
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+
 body {
     background-image: linear-gradient(to right, rgb(255, 187, 0), rgb(255, 0, 0));
 
@@ -154,6 +190,7 @@ footer {
     font-size: large;
     text-align: center;
 }
+
 header a {
     border: 2px solid #A3DBED;
     padding: 5px;
@@ -162,8 +199,22 @@ header a {
     color: #A3DBED;
     border-style: double;
 }
+
 .bye {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #1600bd94;
     font-size:xx-large;
+}
+table {
+    width: 80%;
+    height:400px;
+    font-family: cursive;
+    font-size: xx-large;
+    -webkit-text-stroke-color: rgba(206, 58, 21, 0.797);
+    -webkit-text-stroke-width: 1px;
+}
+td {
+    font-size: 25px;
+    font-size: xx-large;
+
 }

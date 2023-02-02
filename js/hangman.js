@@ -209,114 +209,150 @@ var pokemon = [
   "mew",
 ];
 
-var guesses = 10;
-var wins = 0;
-var losses = 0;
+// counter for game 
+var guessesCounter = 0;
+var winCounter = 0;
+var lossCounter = 0;
+let roundCounter = 0;
 
-var answer = pokemon[Math.floor(Math.random() * pokemon.length)];
+var answer = '';
+let lettersInAnswer = [];
 
 //create '_' placeholders in HTML document with the same number of characters as the pokemon
-var answerLength = answer.length;
-
-var underscore = Array.from("_".repeat(answerLength));
+var underscore = 0;
 
 //initializes an array to store letter guesses
-var letterGuess = [];
+let wrongGuesses = [];
+let rightGuessesAndBlanks = [];
 
-//initializes text on the window load
-window.onload = function () {
-  document.getElementById("answer").innerHTML = underscore.join(" ");
+// start Button and event listener
+const startGameButtonEl = document.getElementById('startGame');
+startGameButtonEl.addEventListener('click', startGame);
 
-  document.getElementById("guessCount").innerHTML = "Guesses left: " + guesses;
+const gameContainerEl = document.getElementById('game-main-container');
+const playerFormContainerEl = document.getElementById('player-form-section');
 
-  document.getElementById("lettersGuessed").innerHTML =
-    "Letters guessed: " + letterGuess;
-};
+//function runs after click me or after each round
+function startGame() {
+  roundCounter++;
+  if (roundCounter == 1) {
+    startGameButtonEl.classList.toggle('hidden');
+    startTimer();
+  }
 
-//function runs after click me
+  if (roundCounter == 4) {
+    endGame();
+    console.log(finishTimeInSeconds);
+  }
 
-document.getElementById("startGame").onclick = function() {
+  answer = pokemon[Math.floor(Math.random() * pokemon.length)];
+  console.log(answer)
+  lettersInAnswer = answer.split("");
+  underscore = lettersInAnswer.length;
+
+  // resets counters
+  guessesCounter = 10;
+  wrongGuesses = [];
+  rightGuessesAndBlanks = [];
+
+  for (let i = 0; i < underscore; i++) {
+    rightGuessesAndBlanks.push("_");
+  }
+
+  // render pokemon
   document.getElementById("pokemonimg").src =
     "assets/img/pokemonName/" + answer + ".png";
 
-    gameStart()
+  // render name of pokemon
+  document.getElementById("answer").innerHTML = rightGuessesAndBlanks.join(' ');
+
+  // render guesses left
+  document.getElementById("guessCount").innerHTML = "Guesses left: " + guessesCounter;
+
+  // reset render letters Guessed
+  document.getElementById("lettersGuessed").innerHTML =
+    "Letters Guessed: " + wrongGuesses;
+
+  // render winCounter
+  document.getElementById('wins').innerHTML = 'Wins: ' + winCounter;
+
+  // render lossCounter
+  document.getElementById("losses").innerHTML = "Losses: " + lossCounter;
+
 }
 
-function gameStart() {
-  if (guesses === 0 || underscore.join("") === answer) {
-    //    prevents guessing after game end
-  } else {
-    let userGuess = "";
-    document.addEventListener("keydown", (event) => {
-      event.preventDefault();
-      userGuess = event.key;
-      console.log(event);
-      console.log(userGuess);
 
-      let userGuessLower = userGuess.toLowerCase();
+function checkGuesses(guess) {
+  // boolean checker variable
+  let isGuessCorrect = false;
 
-      console.log(userGuess);
-
-      if (alphabet.includes(userGuessLower)) {
-        if (answer.indexOf(userGuessLower) < 0) {
-          if (letterGuess.indexOf(userGuessLower) < 0) {
-            guesses = guesses - 1;
-
-            document.getElementById("guessCount").innerHTML =
-              "Guesses left: " + guesses;
-          }
-        }
-
-        //appends userGuess to lettersGuessed array and updates document
-        if (letterGuess.indexOf(userGuessLower) < 0) {
-          letterGuess.push(userGuessLower);
-
-          document.getElementById("lettersGuessed").innerHTML =
-            "Letters guessed: " + letterGuess;
-        }
-
-        //checks to see if the guess is part of the answer
-        if (answer.indexOf(userGuessLower) > -1) {
-          //cycles through the answer to find locations matching the user guess
-          for (var i = 0; i < answer.length; i++) {
-            if (answer[i] === userGuessLower) {
-              //updates underscore with letter at correct location
-              underscore[i] = userGuessLower;
-
-              document.getElementById("answer").innerHTML =
-                underscore.join(" ");
-            }
-          }
-        }
-      }
-      if (underscore.join("") === answer) {
-        //updates win count if underscore is equal to the answer
-        wins = wins + 1;
-    
-        document.getElementById("wins").innerHTML = "Wins: " + wins;
-    
-        //announces a win with the answer
-        document.getElementById("game-title").innerHTML =
-          "You win! It's " + answer.toUpperCase() + "!";
-    
-        //game reset
-        gameOver();
-      }
-      if (guesses === 0) {
-        //updates losses by 1 when guesses equal 0
-        losses = losses + 1;
-    
-        document.getElementById("losses").innerHTML = "Losses: " + losses;
-    
-        //announces a loss with the answer
-        document.getElementById("game-title").innerHTML =
-          "You lose! It's " + answer.toUpperCase() + "!";
-    
-        //game reset
-        gameOver();
-      }
-    });
+  // checks if the guessed letter is inside of the answer 
+  for (let i = 0; i < underscore; i++) {
+    if (answer[i] == guess) {
+      isGuessCorrect = true;
+    } else if (!alphabet.includes(guess)) {
+      isGuessCorrect = false;
+    }
   }
 
+  // if the guessed letter is inside of the answer, populate the right guesses and blanks array
+  if (isGuessCorrect) {
+    for (let i = 0; i < underscore; i++) {
+      if (answer[i] == guess) {
+        rightGuessesAndBlanks[i] = guess;
+      }
+    }
+  } else if (!alphabet.includes(guess)) {
+    console.log('enter a valid letter')
+  } else {
+    wrongGuesses.push(guess);
+    guessesCounter--;
+  }
 
-};
+}
+
+function completeRound() {
+  // renders new counters 
+  document.getElementById('guessCount').innerHTML = `Guesses Left: ${guessesCounter}`;
+  document.getElementById('answer').innerHTML = rightGuessesAndBlanks.join(' ');
+  document.getElementById('lettersGuessed').innerHTML = `Letters Guessed: ${wrongGuesses.join(' ')}`;
+
+  if (lettersInAnswer.toString() == rightGuessesAndBlanks.toLocaleString()) {
+    winCounter++;
+
+    // update rendered score and announce win
+    document.getElementById("game-title").innerHTML = "You win! It's " + answer.toUpperCase() + "!";
+    document.getElementById('wins').innerHTML = winCounter;
+
+    startGame();
+  } else if (guessesCounter == 0) {
+    lossCounter++;
+
+    // update rendered score and announce loss
+    document.getElementById("losses").innerHTML = "Losses: " + losses;
+    document.getElementById("game-title").innerHTML =
+      "You lose! It's " + answer.toUpperCase() + "!";
+    startGame();
+  }
+}
+
+function endGame() {
+  document.getElementById('game-title').innerText = 'Congrats!';
+  gameContainerEl.classList.toggle('hidden');
+  playerFormContainerEl.classList.toggle('hidden');
+  endTimer();
+  document.removeEventListener("keydown", handleKeyDown);
+
+  document.getElementById('score').value = winCounter - lossCounter;
+  document.getElementById('time').value = finishTimeInSeconds
+  userScore = winCounter - lossCounter;
+}
+
+
+function handleKeyDown(event) {
+  event.preventDefault();
+  let userGuess = event.key.toLowerCase();
+  checkGuesses(userGuess);
+  completeRound();
+}
+document.addEventListener("keydown", handleKeyDown);
