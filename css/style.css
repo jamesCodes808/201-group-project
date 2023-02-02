@@ -22,6 +22,7 @@ header nav ul a {
 .hidden {
     visibility: hidden;
 }
+
 /* game location */
 .game-title {
     font-size: 7rem;
