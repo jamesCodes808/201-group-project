@@ -40,7 +40,7 @@ header nav ul a {
 .card {
     width: 80%;
     height: 700px;
-    background-color: rgba(83, 168, 243, 0.312);
+    background-image: linear-gradient(to bottom, #ff6e00, #f77444, #f08064, #ffcab0, #f4e2d0, #f1ddcd, #efe4cb, #c8e2ed, rgb(241, 199, 199), #f3cca2, #fe9d73, #fc4343, #f30f0f);
     display: block;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,7 @@ header nav ul a {
     display: block;
     margin-top: none;
     height: 500px;
+    position: relative;
 }
 
 .card p {
@@ -77,7 +78,7 @@ header nav ul a {
 .card button {
     border-radius: 10px;
     display: block;
-    background-image: linear-gradient(to right, rgb(0, 102, 255), rgb(0, 255, 221));
+    background-image: linear-gradient(to right, rgb(255, 145, 0), rgb(255, 187, 0));
     border: 2px solid #A3DBED;
     border-style: double;
     padding: 10px;
@@ -87,6 +88,7 @@ header nav ul a {
     box-shadow: 0 40px 63px -60px #132A13;
     margin-top: none;
     margin-bottom: none;
+    font-size: larger;
 
 }
 
@@ -195,7 +197,7 @@ footer {
 header a {
     border: 2px solid #A3DBED;
     padding: 5px;
-    background-image: linear-gradient(to bottom, rgb(0, 102, 255), rgb(0, 255, 221));
+    background-image: linear-gradient(to bottom, rgb(255, 145, 0), rgb(255, 187, 0));
     box-shadow: 10px;
     color: #A3DBED;
     border-style: double;
