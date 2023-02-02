@@ -21,7 +21,6 @@ function renderLeaderBoard() {
 };
 
 
-
 // will clear leader board data before reloading new scores. 
 function clearLeaderBoard() {
     let trEl = leaderboardTbodyEl.querySelectorAll('tr');
@@ -29,13 +28,20 @@ function clearLeaderBoard() {
 }
 
 function showLeaderBoard() {
-    for (let player of state.leaderBoard.listOfPlayers) {
+    let listOfSortedPlayersByRank = state.leaderBoard.listOfPlayers.sort((x, y) => {
+        return y.score - x.score;
+    })
+    console.log(listOfSortedPlayersByRank)
+    for (let [i, player] of listOfSortedPlayersByRank.entries()) {
+
         let trEl = document.createElement('tr');
         let tdRankEl = document.createElement('td');
         let tdNameEl = document.createElement('td');
         let tdTimeEl = document.createElement('td');
         let tdScoreEl = document.createElement('td');
 
+
+        tdRankEl.innerText = i + 1;
         tdNameEl.innerText = player.name;
         tdTimeEl.innerText = player.time;
         tdScoreEl.innerText = player.score;
