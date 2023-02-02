@@ -166,3 +166,14 @@ header a {
     color: #1600bd94;
     font-size:xx-large;
 }
+table {
+    width: 80%;
+    height:400px;
+    font-family: cursive;
+    font-size: xx-large;
+    -webkit-text-stroke-color: rgba(206, 58, 21, 0.797);
+    -webkit-text-stroke-width: 1px;
+}
+td {
+    font-size: 25px;
+}
