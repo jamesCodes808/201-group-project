@@ -19,11 +19,9 @@ header nav ul a {
     font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
 .hidden {
     visibility: hidden;
 }
-=======
 /* game location */
 .game-title {
     font-size: 7rem;
@@ -46,7 +44,6 @@ header nav ul a {
 }
 
 
->>>>>>> b1309bd43701516acede773c3ce9ee15cec293b9
 
 /* Leader Board Page Styles  */
 #leaderboard-main-container {
