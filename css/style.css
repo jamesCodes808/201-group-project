@@ -1,14 +1,13 @@
 /* Global Styles  */
 body {
-    background-image: url(/assets/img/main-bg.jpg);
+    background-image: url('/assets/img/main-bg.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-color: #827C26;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
-
     background-color: #52423D;
     border-bottom: 2px solid #A3DBED;
     z-index: 1;
@@ -18,6 +17,8 @@ header {
 
 header nav ul {
     display: flex;
+    list-style: none;
+    list-style-type: none;
     justify-content: space-around;
     align-items: flex-start;
     padding: 30px;
