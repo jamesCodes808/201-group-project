@@ -3,7 +3,7 @@ body {
     background-image: url('../assets/img/main-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #827C26;
+    /* background-color: #827C26; */
     font-family: 'Roboto', sans-serif;
 }
 
