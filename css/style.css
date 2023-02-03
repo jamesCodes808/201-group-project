@@ -1,22 +1,36 @@
 /* Global Styles  */
+body {
+    background-image: url(/assets/img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #827C26;
+    font-family: 'Roboto', sans-serif;
+}
 
 header {
-    margin: 0 auto 50px;
-    border: 2px solid #A3DBED;
-    border-radius: 10px;
-    padding: 50px;
+
+    background-color: #52423D;
+    border-bottom: 2px solid #A3DBED;
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    height: 30px;
 }
 
 header nav ul a {
-    color: #2D65A8;
+    color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 30px;
 }
 
 .hidden {
@@ -26,16 +40,17 @@ header nav ul a {
 
 /* game location */
 .game-title {
-    font-size: 7rem;
-    margin: 50px auto;
+    z-index: -1;
+    font-size: 5rem;
+    margin: 30px auto;
     color: #E9BD31;
     text-align: center;
     letter-spacing: 10px;
     -webkit-text-stroke-width: 6px;
     -webkit-text-stroke-color: #345EA0;
-    text-shadow: -15px 15px #1C315D;
+    text-shadow: -5px 5px #1C315D;
     font-family: 'Pokemon Solid', sans-serif;
-
+    /* position: relative; */
 }
 
 .card {
@@ -69,12 +84,21 @@ header nav ul a {
 .card p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    -webkit-text-stroke-color: #A3DBED;
-    -webkit-text-stroke-width: .6px;
+    /* color: whitesmoke; */
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .1px;
     font-size: large;
-    text-shadow: #A3DBED;
+    color: white;
+    text-shadow: black;
     margin-bottom: 1px;
+}
+
+.card img {
+    margin: 30px auto;
+}
+
+.card #startGame {
+    margin: 0px auto;
 }
 
 .card button {
@@ -115,6 +139,8 @@ header nav ul a {
 }
 
 
+
+
 /* Leader Board Page Styles  */
 #leaderboard-main-container {
     text-align: center;
@@ -122,14 +148,15 @@ header nav ul a {
 }
 
 #leaderboard-main-container h1 {
-    font-size: 7rem;
-    margin: 50px auto;
+    z-index: -1;
+    font-size: 5rem;
+    margin: 30px auto;
     color: #E9BD31;
     text-align: center;
     letter-spacing: 10px;
     -webkit-text-stroke-width: 6px;
     -webkit-text-stroke-color: #345EA0;
-    text-shadow: -15px 15px #1C315D;
+    text-shadow: -5px 5px #1C315D;
     font-family: 'Pokemon Solid', sans-serif;
 }
 
@@ -139,6 +166,12 @@ header nav ul a {
     font-size: 0.8rem;
     margin: 50px auto;
     padding: 30px;
+    width: 80%;
+    height: 400px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    /* -webkit-text-stroke-color: rgba(206, 58, 21, 0.797); */
+    -webkit-text-stroke-width: 1px;
 }
 
 td,
@@ -148,28 +181,38 @@ th {
 
 th {
     font-size: 1.5rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.466);
 }
 
 td {
-    font-size: 1rem;
     text-align: center;
+    font-size: xx-large;
 }
 
 tr:nth-child(even) td {
-    background-color: rgb(248, 255, 146);
+    background-color: rgba(34, 36, 48, 0.301);
 }
 
 tr:nth-child(odd) td {
-    background-color: rgb(255, 194, 194);
+    background-color: rgba(32, 65, 35, 0.247);
 }
 
 /* Styles for end game form  */
 #player-form-section {
-    display: flex;
+    text-align: center;
     position: absolute;
-    top: 50%;
-    left: 15%
+    top: 40%;
+    left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px auto;
+    font-size: 1.2rem;
+    background-color: #52423D99;
+    color: white;
+}
+
+#player-form-section form {
+    padding: 30px;
 }
 
 #player-form-section legend {
@@ -178,50 +221,94 @@ tr:nth-child(odd) td {
     margin: 30px auto;
 }
 
-
-
-body {
-    background-image: linear-gradient(to right, rgb(255, 187, 0), rgb(255, 0, 0));
-
-
-
-}
-
-footer {
-    margin: 50px auto 0;
-    border: 5px solid #A3DBED;
-    border-radius: 10px;
-    padding: 50px;
-    font-size: large;
+/* About Styles  */
+#about-main h1 {
+    z-index: -1;
+    font-size: 5rem;
+    margin: 30px auto;
+    color: #E9BD31;
     text-align: center;
+    letter-spacing: 10px;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #345EA0;
+    text-shadow: -5px 5px #1C315D;
+    font-family: 'Pokemon Solid', sans-serif;
 }
 
-header a {
-    border: 2px solid #A3DBED;
-    padding: 5px;
-    background-image: linear-gradient(to bottom, rgb(255, 145, 0), rgb(255, 187, 0));
-    box-shadow: 10px;
-    color: #A3DBED;
-    border-style: double;
+#about-profile-container {
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    gap: 1rem;
 }
+
+.profile-section {
+    margin: 20px;
+    background-color: #52423DD9;
+    color: white;
+    display: grid;
+    grid-template-columns: 150px 150px 600px;
+}
+
+.profile-section:nth-of-type(even) {
+    direction: rtl;
+}
+
+.profile-img {
+    height: 80%;
+    width: 80%;
+    /* justify-self: start; */
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    align-self: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.profile-text {
+    align-self: center;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+/* .profile-img {
+    padding: 20px;
+}
+
+.profile-img:nth-of-type(even) {
+    float:right;
+}
+
+.profile-name:nth-of-type(odd) {
+    margin-left: 50px;
+} */
+
+
+/* footer styles  */
+footer {
+    color: white;
+    margin-top: 25px;
+    border-top: 2px solid #A3DBED;
+    border-radius: 10px 0px 0px;
+    padding: 30px;
+    font-size: small;
+    text-align: center;
+    background-color: #52423D;
+    bottom: 0px;
+    top: 100px;
+}
+
+#leaderboard-footer {
+    position: relative;
+}
+
+
 
 .bye {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #1600bd94;
     font-size: xx-large;
-}
-
-table {
-    width: 80%;
-    height: 400px;
-    font-family: cursive;
-    font-size: xx-large;
-    -webkit-text-stroke-color: rgba(206, 58, 21, 0.797);
-    -webkit-text-stroke-width: 1px;
-}
-
-td {
-    font-size: 25px;
-    font-size: xx-large;
-
 }
