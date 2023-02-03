@@ -236,7 +236,9 @@ const playerFormContainerEl = document.getElementById('player-form-section');
 function startGame() {
   roundCounter++;
   if (roundCounter == 1) {
-    startGameButtonEl.classList.toggle('hidden');
+    if (!startGameButtonEl.classList.contains('hidden')) {
+      startGameButtonEl.classList.toggle('hidden');
+    }
     startTimer();
   }
 
@@ -339,6 +341,7 @@ function completeRound() {
 function endGame() {
   // resetCounters 
   roundCounter = 0;
+
   document.getElementById('game-title').innerText = 'Congrats!';
   gameContainerEl.classList.toggle('hidden');
   playerFormContainerEl.classList.toggle('hidden');
@@ -348,6 +351,8 @@ function endGame() {
   document.getElementById('score').value = winCounter - lossCounter;
   document.getElementById('time').value = finishTimeInSeconds
   userScore = winCounter - lossCounter;
+  winCounter = 0;
+  lossCounter = 0;
 }
 
 
