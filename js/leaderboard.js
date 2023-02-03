@@ -2,6 +2,7 @@
 // leaderboard functionality and storage
 
 // global variables 
+let showPlayersMax = 5;
 
 // HTML element variables 
 const leaderboardTbodyEl = document.getElementById('leaderboard-tbody');
@@ -16,8 +17,8 @@ function loadLeaderBoard() {
 // renders leaderboard on page 
 function renderLeaderBoard() {
     loadLeaderBoard();
-    clearLeaderBoard();
     showLeaderBoard();
+    clearLeaderBoard();
 };
 
 
