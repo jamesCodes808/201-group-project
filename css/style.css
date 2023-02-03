@@ -4,7 +4,7 @@ header {
     margin: 0 auto 50px;
     border: 2px solid #A3DBED;
     border-radius: 10px;
-    padding: 20px;
+    padding: 50px;
 }
 
 header nav ul {
@@ -27,7 +27,7 @@ header nav ul a {
 /* game location */
 .game-title {
     font-size: 7rem;
-    margin: 30px auto;
+    margin: 50px auto;
     color: #E9BD31;
     text-align: center;
     letter-spacing: 10px;
