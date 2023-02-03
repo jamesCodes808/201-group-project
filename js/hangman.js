@@ -55,7 +55,6 @@ var alphabet = [
   "Z",
 ];
 
-//potential words to guess
 var pokemon = [
   "bulbasaur",
   "ivysaur",
@@ -209,7 +208,6 @@ var pokemon = [
   "mew",
 ];
 
-// counter for game 
 var guessesCounter = 0;
 var winCounter = 0;
 var lossCounter = 0;
@@ -218,21 +216,17 @@ let roundCounter = 0;
 var answer = '';
 let lettersInAnswer = [];
 
-//create '_' placeholders in HTML document with the same number of characters as the pokemon
 var underscore = 0;
 
-//initializes an array to store letter guesses
 let wrongGuesses = [];
 let rightGuessesAndBlanks = [];
 
-// start Button and event listener
 const startGameButtonEl = document.getElementById('startGame');
 startGameButtonEl.addEventListener('click', startGame);
 
 const gameContainerEl = document.getElementById('game-main-container');
 const playerFormContainerEl = document.getElementById('player-form-section');
 
-//function runs after click me or after each round
 function startGame() {
   roundCounter++;
   if (roundCounter == 1) {
@@ -252,7 +246,6 @@ function startGame() {
   lettersInAnswer = answer.split("");
   underscore = lettersInAnswer.length;
 
-  // resets counters
   guessesCounter = 10;
   wrongGuesses = [];
   rightGuessesAndBlanks = [];
@@ -261,34 +254,26 @@ function startGame() {
     rightGuessesAndBlanks.push("_");
   }
 
-  // render pokemon
   document.getElementById("pokemonimg").src =
     "assets/img/pokemonName/" + answer + ".png";
 
-  // render name of pokemon
   document.getElementById("answer").innerHTML = rightGuessesAndBlanks.join(' ');
 
-  // render guesses left
   document.getElementById("guessCount").innerHTML = "Guesses left: " + guessesCounter;
 
-  // reset render letters Guessed
   document.getElementById("lettersGuessed").innerHTML =
     "Letters Guessed: " + wrongGuesses;
 
-  // render winCounter
   document.getElementById('wins').innerHTML = 'Wins: ' + winCounter;
 
-  // render lossCounter
   document.getElementById("losses").innerHTML = "Losses: " + lossCounter;
 
 }
 
 
 function checkGuesses(guess) {
-  // boolean checker variable
   let isGuessCorrect = false;
 
-  // checks if the guessed letter is inside of the answer 
   for (let i = 0; i < underscore; i++) {
     if (answer[i] == guess) {
       isGuessCorrect = true;
@@ -297,7 +282,6 @@ function checkGuesses(guess) {
     }
   }
 
-  // if the guessed letter is inside of the answer, populate the right guesses and blanks array
   if (isGuessCorrect) {
     for (let i = 0; i < underscore; i++) {
       if (answer[i] == guess) {
@@ -314,7 +298,6 @@ function checkGuesses(guess) {
 }
 
 function completeRound() {
-  // renders new counters 
   document.getElementById('guessCount').innerHTML = `Guesses Left: ${guessesCounter}`;
   document.getElementById('answer').innerHTML = rightGuessesAndBlanks.join(' ');
   document.getElementById('lettersGuessed').innerHTML = `Letters Guessed: ${wrongGuesses.join(' ')}`;
@@ -322,7 +305,6 @@ function completeRound() {
   if (lettersInAnswer.toString() == rightGuessesAndBlanks.toLocaleString()) {
     winCounter++;
 
-    // update rendered score and announce win
     document.getElementById("game-title").innerHTML = "You win! It's " + answer.toUpperCase() + "!";
     document.getElementById('wins').innerHTML = winCounter;
 
@@ -330,7 +312,6 @@ function completeRound() {
   } else if (guessesCounter == 0) {
     lossCounter++;
 
-    // update rendered score and announce loss
     document.getElementById("losses").innerHTML = "Losses: " + losses;
     document.getElementById("game-title").innerHTML =
       "You lose! It's " + answer.toUpperCase() + "!";
@@ -339,7 +320,6 @@ function completeRound() {
 }
 
 function endGame() {
-  // resetCounters 
   roundCounter = 0;
 
   document.getElementById('game-title').innerText = 'Congrats!';

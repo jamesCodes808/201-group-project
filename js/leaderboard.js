@@ -1,20 +1,15 @@
 'use strict'
-// leaderboard functionality and storage
 
-// global variables 
 let showPlayersMax = 5;
 
-// HTML element variables 
 const leaderboardTbodyEl = document.getElementById('leaderboard-tbody');
 
-// will load leaderboard saved from home page into the leaderboard page
 function loadLeaderBoard() {
     const players = JSON.parse(localStorage.getItem('listOfPlayers'))
     console.log(players)
     state.leaderBoard = new Leaderboard(players);
 };
 
-// renders leaderboard on page 
 function renderLeaderBoard() {
     loadLeaderBoard();
     showLeaderBoard();
@@ -22,7 +17,6 @@ function renderLeaderBoard() {
 };
 
 
-// will clear leader board data before reloading new scores. 
 function clearLeaderBoard() {
     let trEl = leaderboardTbodyEl.querySelectorAll('tr');
     trEl.innerText = '';

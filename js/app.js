@@ -1,16 +1,16 @@
-// global variables 
+
 const state = {
     leaderBoard: null,
 };
 
-// variables for timer
+
 let startTime;
 let endTime;
 let finishTimeInSeconds;
 let userScore = 0;
 
 
-// Prompt to create a player and fill in values after the game is complete
+
 const Player = function (name, time, score) {
     this.name = name,
         this.time = time,
@@ -18,7 +18,6 @@ const Player = function (name, time, score) {
 };
 
 
-// Leaderboard Constructor and creating leaderboard for state
 const Leaderboard = function (listOfPlayers) {
     this.listOfPlayers = listOfPlayers;
 };
@@ -28,7 +27,7 @@ if (!state.leaderBoard) {
     state.leaderBoard = new Leaderboard(listOfPlayers);
 }
 
-// LeaderBoard Prototype Functions
+
 Leaderboard.prototype.addPlayer = function (player) {
     this.listOfPlayers.push(player);
 };
@@ -37,7 +36,6 @@ Leaderboard.prototype.saveToLocalStorage = function () {
     localStorage.setItem('listOfPlayers', JSON.stringify(this.listOfPlayers));
 };
 
-// initialize test players, clear players to add new players to leaderboard
 function generateTestPlayers() {
 
     const players = JSON.parse(localStorage.getItem('listOfPlayers'))
@@ -57,24 +55,22 @@ function generateTestPlayers() {
 generateTestPlayers();
 
 
-// functions for timer, will get called when start button is clicked, and when quiz is over
 function startTimer() {
     startTime = new Date();
 };
 
 function endTimer() {
     endTime = new Date();
-    let timeDiff = endTime - startTime; //in ms
-    // divide to change ms to seconds 
+    let timeDiff = endTime - startTime;
+  
     timeDiff /= 1000;
 
-    // gets the seconds
+
     finishTimeInSeconds = Math.round(timeDiff)
 };
 
 
 
-// submission for form to get player info
 function handleSubmit(e) {
     e.preventDefault();
     let newPlayer = new Player(e.target.name.value, finishTimeInSeconds, userScore)
@@ -85,14 +81,12 @@ function handleSubmit(e) {
 }
 
 
-//submit event listener for player form
 const playerFormEl = document.getElementById('player-form');
 
 if (playerFormEl) {
     playerFormEl.addEventListener('submit', handleSubmit);
 }
 
-// function for try again button click
 function handleTryAgain(e) {
     e.preventDefault();
     document.getElementById('try-again-container').classList.toggle('hidden');
@@ -101,7 +95,7 @@ function handleTryAgain(e) {
     document.addEventListener('keydown', handleKeyDown)
 }
 
-// event listener for try again button
+
 const tryAgainBtnEl = document.getElementById('try-again-btn');
 if (tryAgainBtnEl) {
     tryAgainBtnEl.addEventListener('click', handleTryAgain)
