@@ -63,6 +63,7 @@ header nav ul a {
     margin-top: none;
     height: 500px;
     position: relative;
+
 }
 
 .card p {
@@ -136,7 +137,7 @@ header nav ul a {
     border-collapse: collapse;
     border: none;
     font-size: 0.8rem;
-    margin: auto;
+    margin: 50px auto;
     padding: 30px;
 }
 
