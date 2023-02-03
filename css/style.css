@@ -23,7 +23,6 @@ header nav ul a {
     display: none;
     visibility: hidden;
 }
-
 /* game location */
 .game-title {
     font-size: 7rem;
@@ -61,6 +60,7 @@ header nav ul a {
     margin-right: auto;
     display: block;
     margin-top: none;
+    height: 500px;
 }
 
 .card p {
@@ -204,5 +204,18 @@ header a {
 .bye {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #1600bd94;
+    font-size:xx-large;
+}
+table {
+    width: 80%;
+    height:400px;
+    font-family: cursive;
     font-size: xx-large;
+    -webkit-text-stroke-color: rgba(206, 58, 21, 0.797);
+    -webkit-text-stroke-width: 1px;
+}
+td {
+    font-size: 25px;
+    font-size: xx-large;
+
 }
