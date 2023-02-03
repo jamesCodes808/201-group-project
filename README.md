@@ -146,6 +146,12 @@ group project consisting of work from chris bascom, ernesto cardenas and james s
 
     Through our group Slack DM group, we will alert the others when we are ready to merge. 
 
->To Do
+>References and Attributions
 >
->Schedule Practice Presentation Session with Instructor 
+>[Profile Images](https://www.freepik.com/free-vector/creative-hand-drawn-profile-icons-collection_18005881.htm#page=6&query=character%20profile&position=7&from_view=search&track=sph)
+>
+>[Background Images](https://www.wallpaperflare.com/nature-pokemon-sky-cloud-sky-beauty-in-nature-sunset-wallpaper-pimbf/download/1242x2688)
+>
+>[Pokemon Images](https://www.kaggle.com/datasets/kvpratama/pokemon-images-dataset)
+>
+>[Pokemon Font](https://www.cdnfonts.com/pokemon-solid.font)
