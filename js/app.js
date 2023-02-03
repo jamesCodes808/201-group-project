@@ -43,9 +43,9 @@ function generateTestPlayers() {
     const players = JSON.parse(localStorage.getItem('listOfPlayers'))
     console.log(players)
     if (!players) {
-        let ash = new Player('ash', 5, 10);
-        let misty = new Player('misty', 6, 8);
-        let brock = new Player('brock', 4, 9);
+        let ash = new Player('ash', 5, 2);
+        let misty = new Player('misty', 6, 2);
+        let brock = new Player('brock', 4, 1);
         state.leaderBoard.addPlayer(ash);
         state.leaderBoard.addPlayer(misty);
         state.leaderBoard.addPlayer(brock);
@@ -82,7 +82,6 @@ function handleSubmit(e) {
     state.leaderBoard.saveToLocalStorage();
     playerFormContainerEl.classList.toggle('hidden');
     document.getElementById('try-again-container').classList.toggle('hidden');
-
 }
 
 
@@ -96,8 +95,10 @@ if (playerFormEl) {
 // function for try again button click
 function handleTryAgain(e) {
     e.preventDefault();
-    startGame();
     document.getElementById('try-again-container').classList.toggle('hidden');
+    document.getElementById('game-main-container').classList.toggle('hidden');
+    startGame();
+    document.addEventListener('keydown', handleKeyDown)
 }
 
 // event listener for try again button

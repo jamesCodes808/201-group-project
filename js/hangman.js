@@ -240,7 +240,7 @@ function startGame() {
     startTimer();
   }
 
-  if (roundCounter == 4) {
+  if (roundCounter > 3) {
     endGame();
     console.log(finishTimeInSeconds);
   }
@@ -337,6 +337,8 @@ function completeRound() {
 }
 
 function endGame() {
+  // resetCounters 
+  roundCounter = 0;
   document.getElementById('game-title').innerText = 'Congrats!';
   gameContainerEl.classList.toggle('hidden');
   playerFormContainerEl.classList.toggle('hidden');
