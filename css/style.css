@@ -1,10 +1,10 @@
 /* Global Styles  */
 
 header {
-    margin: 50px auto;
-    border: 5px solid #A3DBED;
+    margin: 0 auto 50px;
+    border: 2px solid #A3DBED;
     border-radius: 10px;
-    padding: 50px;
+    padding: 20px;
 }
 
 header nav ul {
@@ -16,13 +16,14 @@ header nav ul {
 header nav ul a {
     color: #2D65A8;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .hidden {
     display: none;
     visibility: hidden;
 }
+
 /* game location */
 .game-title {
     font-size: 7rem;
@@ -186,7 +187,7 @@ body {
 }
 
 footer {
-    margin: 50px auto;
+    margin: 50px auto 0;
     border: 5px solid #A3DBED;
     border-radius: 10px;
     padding: 50px;
@@ -206,16 +207,18 @@ header a {
 .bye {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #1600bd94;
-    font-size:xx-large;
+    font-size: xx-large;
 }
+
 table {
     width: 80%;
-    height:400px;
+    height: 400px;
     font-family: cursive;
     font-size: xx-large;
     -webkit-text-stroke-color: rgba(206, 58, 21, 0.797);
     -webkit-text-stroke-width: 1px;
 }
+
 td {
     font-size: 25px;
     font-size: xx-large;
