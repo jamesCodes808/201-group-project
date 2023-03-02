@@ -1,17 +1,49 @@
-# 201-group-project
+# Pokemon Guessing Game
 group project consisting of work from chris bascom, ernesto cardenas and james solima
+
+## Overview
+
+[Deployed Site]()
+
+Guessing game in the format of hangman and theme of Pokemon! Fully refactorable, fun and educational!
+
+## Getting Started
+
+packages needed:
+
+
+tools used:
+
+## Change Log
+
+<details closed>
+<summary>Log</summary>
+
+<section>
+2-3-2023 - Project Complete
+</section>
+
+<section>
+
+</section>
+
+</details>
+
 
 ## Cooperation Plan 
 
+<details closed><summary>Cooperation Plan</summary>
+
 ### What are the key strengths of each person on the team?
 
+    
     James 
     - Strengths:
-        - Fundamentals of HTML, CSS, JS
+        - Fundamentals of HTML, CSS, JS, React, Bootstrap, Express, Node.js, MongoDB
 
 
     - Weaknesses:
-        - JS concepts, mainly local storage and persisting data
+        - Some JS concepts
 
     Chris 
     - Strengths:
@@ -26,6 +58,7 @@ group project consisting of work from chris bascom, ernesto cardenas and james s
 
     - Weaknesses: 
         - CSS
+
 
 ### How can you best utilize these strengths in the execution of your project?
 
@@ -145,6 +178,8 @@ group project consisting of work from chris bascom, ernesto cardenas and james s
 ### How will you communicate that it’s time to merge?
 
     Through our group Slack DM group, we will alert the others when we are ready to merge. 
+
+</details>
 
 >References and Attributions
 >
