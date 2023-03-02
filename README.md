@@ -10,7 +10,7 @@ Guessing game in the format of hangman and theme of Pokemon! Fully refactorable,
 ## Getting Started
 
 packages needed:
-
+- npm i concurrently (for running back end and front end in same project)
 
 tools used:
 
@@ -24,7 +24,7 @@ tools used:
 </section>
 
 <section>
-
+3-2-2023 -
 </section>
 
 </details>
