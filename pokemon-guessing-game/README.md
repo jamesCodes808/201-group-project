@@ -3,7 +3,7 @@ group project consisting of work from chris bascom, ernesto cardenas and james s
 
 ## Overview
 
-[Deployed Site]()
+[Deployed Site](https://jamescodes808.github.io/pokemon-guessing-game/)
 
 Guessing game in the format of hangman and theme of Pokemon! Fully refactorable, fun and educational!
 
@@ -11,10 +11,13 @@ Guessing game in the format of hangman and theme of Pokemon! Fully refactorable,
 
 packages needed:
 - npx create-react-app pokemon-guessing-game
-- npm i concurrently (for running back end and front end in same project)
-- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+- npm i react-bootstrap bootstrap (with import 'bootstrap/dist/css/bootstrap.min.css'; in the app.js or src/index.js)
+- npm i react-router-dom
 - npm i axios
-- 
+- npm i concurrently (for running back end and front end in same project)
+- npm i dotenv
+- npm i auth0
+
 
 tools used:
 
@@ -29,7 +32,7 @@ tools used:
 </section>
 
 <section>
-3-2-2023 - 
+3-2-2023 -
 </section>
 
 </details>
